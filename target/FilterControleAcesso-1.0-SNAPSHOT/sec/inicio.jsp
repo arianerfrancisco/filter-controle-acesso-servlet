@@ -6,6 +6,6 @@
 </head>
 <!-- http://localhost:8080/FilterControleAcesso_war_exploded/sec/inicio.jsp -->
 <body>
-Bem-vindo ao Sistema
+Bem-vindo ao Sistema!
 </body>
 </html>

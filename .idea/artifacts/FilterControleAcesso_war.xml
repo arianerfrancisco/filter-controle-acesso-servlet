@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FilterControleAcesso:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>FilterControleAcesso</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="FilterControleAcesso-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="FilterControleAcesso:war exploded" />
+    </root>
+  </artifact>
+</component>

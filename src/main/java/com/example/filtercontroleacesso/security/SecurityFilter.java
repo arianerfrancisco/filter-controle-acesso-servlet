@@ -25,12 +25,13 @@ public class SecurityFilter implements Filter {
         HttpSession session = req.getSession();
 
         UserInfo user = (UserInfo)session.getAttribute("userInfo");
-
+        // Faz casting para UserInfo, pois o getAttribute retornará um object.
         if (user == null) {
             res.sendError(HttpServletResponse.SC_FORBIDDEN); // retorna o código 403 - acesso negado
             return;
         } else {
             chain.doFilter(request, response);
+            // chain faz com que a requisição seja passada a frente
         }
     }
 }
